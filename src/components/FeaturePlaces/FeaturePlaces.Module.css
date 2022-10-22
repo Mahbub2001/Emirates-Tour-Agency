@@ -1,0 +1,12 @@
+.feature-inner{
+    width: 80%;
+}
+.container-swiper{
+    width: 70%;
+}
+
+@media screen and (max-width:600px) {
+    .swiper-main{
+        display: none;
+    }
+}

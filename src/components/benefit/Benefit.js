@@ -9,7 +9,7 @@ const Benefit = () => {
   return (
     <div className="mt-20 benefit-container flex flex-row justify-center">
       <div className="benefit-inner mb-28 pt-10">
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+        <div className="grid gap-3 lg:grid-cols-2 sm:grid-cols-1">
           <div>
             <h1 className="text-5xl text-slate-800 font-semibold">
               Our Benefit
