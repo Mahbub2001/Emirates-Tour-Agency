@@ -20,38 +20,50 @@
     color: #1D2A3B;
     outline: none;
 }
-.vertical-1 {
-    border-left: 1px solid black;
-    height: 120px;
-    position:absolute;
-    right: -55%;
-    top: 0%;
-}
-.vertical-2 {
-    border-left: 1px solid black;
-    height: 120px;
-    position:absolute;
-    right: -55%;
-    top: -50%;
-}
+
 .date-picker{
     cursor: pointer;
+}
+.rln{
+    position: relative;
+}
+.hr{
+    color: black;
+    background-color: black;
+    transform: rotate(-90deg);
+    width: 7rem;
+    position: absolute;
+    right: -150px;
+    top: 30px;
 }
 
 @media screen and (max-width:990px) {
     .home-picture{
         height: 70vh;
     }
-    .vertical {
-        display: none;
-    }
     .date-pickerdiv{
         margin-top: 2rem;
         margin-right: 2rem;
+    }
+    .date-pickerdiv{
+        margin-bottom: 2rem;
     }
 }
 @media screen and (max-width:600px) {
     .home-picture{
         height: 80vh;
     }
+    .destination-inner{
+        padding: 30px 30px;
+    }
+    .date-pickerdiv{
+        margin-bottom: 2rem;
+    }
+    .rln{
+        position: static;
+    }
+    .hr{
+     display: none;
+    }
+    
 }
