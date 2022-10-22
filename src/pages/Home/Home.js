@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.Module.css";
 import HomePicture from "../../assets/coxsBajar.png";
 import SpecialOffers from "../../components/SpecialOffers";
+import Benefit from "../../components/benefit/Benefit";
 
 const Home = () => {
   const [date, setDate] = useState();
@@ -60,6 +61,7 @@ const Home = () => {
         </div>
       </div>
      <SpecialOffers/>
+     <Benefit/>
     </div>
   );
 };
