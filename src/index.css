@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bar{
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate(0px,510px);
+
+}
