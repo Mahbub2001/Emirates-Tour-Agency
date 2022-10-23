@@ -1,4 +1,5 @@
 .home-picture{
+    width: 100%;
     filter: brightness(50%);
 }
 .destination-container{
@@ -33,7 +34,7 @@
     transform: rotate(-90deg);
     width: 7rem;
     position: absolute;
-    right: -150px;
+    right: -120px;
     top: 30px;
 }
 
