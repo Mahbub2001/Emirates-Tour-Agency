@@ -1,0 +1,20 @@
+export const buttonData=[
+    {
+        country:"bangladesh"
+    },
+    {
+        country:"india"
+    },
+    {
+        country:"srilanka"
+    },
+    {
+        country:"nepal"
+    },
+    {
+        country:"italy"
+    },
+    {
+        country:"spain"
+    },
+]

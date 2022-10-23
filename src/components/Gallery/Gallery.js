@@ -23,7 +23,7 @@ const Gallery = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-center mt-20">
+      <div className="flex flex-row justify-center lg:-mt-96 md:-mt-28 sm:-mt-0">
         <div className="special-inner">
           <div className="flex justify-center justify-items-center">
           <div className="">
