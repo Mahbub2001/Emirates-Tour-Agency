@@ -4,6 +4,7 @@ import HomePicture from "../../assets/coxsBajar.png";
 import SpecialOffers from "../../components/SpecialOffers";
 import Benefit from "../../components/benefit/Benefit";
 import FeaturePlaces from "../../components/FeaturePlaces/FeaturePlaces";
+import Gallery from "../../components/Gallery/Gallery";
 
 const Home = () => {
   const [date, setDate] = useState();
@@ -64,6 +65,7 @@ const Home = () => {
      <SpecialOffers/>
      <Benefit/>
      <FeaturePlaces/>
+     <Gallery/>
     </div>
   );
 };

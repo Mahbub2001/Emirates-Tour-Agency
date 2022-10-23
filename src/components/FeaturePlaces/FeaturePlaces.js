@@ -28,9 +28,9 @@ const FeaturePlaces = () => {
         <h3 className="text-5xl text-gray-800 font-semibold text-center ">
           Feature Places
         </h3>
-        <p className="m-auto pt-5 w-20 text-center">
+        <div className="m-auto pt-5 w-20 text-center">
           <hr className="text-center bg-blue-800 h-2" />
-        </p>
+        </div>
         <div className="lg:flex swiper-main sm:hidden justify-center mt-10  md:hidden">
           <div className=" container-swiper">
             <Swiper
