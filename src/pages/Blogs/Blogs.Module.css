@@ -1,0 +1,15 @@
+.blogs{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../assets/icons/ratargulLarge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+.blogs h1{
+    top: 40%;
+}
+.blogs p{
+    top: 35%;
+}
+.blog-container{
+    width: 80%;
+}

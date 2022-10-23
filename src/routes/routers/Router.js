@@ -44,6 +44,7 @@ export const routers = createBrowserRouter([
             },
             {
                 path:"/blogs",
+                loader:()=>fetch('https://emirates-agency-server.vercel.app/latest'),
                 element:<Blogs/>,
             },
             {

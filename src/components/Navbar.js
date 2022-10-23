@@ -11,13 +11,16 @@ const Navbar = () => {
   return (
     <div className="flex justify-center">
     <nav>
-      <div>
-        Knowledge is <font className="logo">Power</font>
+      <div className="logo">
+        Emirates <font className="text-black"> Fly</font>
       </div>
       <div className="menu-icon" onClick={handleClick}>
         {clicked ? <FaBars /> : <FaBars />}
       </div>
       <ul className={clicked ? "menu-list" : "menu-list close"}>
+        <li>
+            <NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
+        </li>
         <li>
             <NavLink to="/blogs" className={({ isActive }) => (isActive ? 'active' : '')}>Blogs</NavLink>
         </li>
