@@ -5,6 +5,7 @@ import SpecialOffers from "../../components/SpecialOffers";
 import Benefit from "../../components/benefit/Benefit";
 import FeaturePlaces from "../../components/FeaturePlaces/FeaturePlaces";
 import Gallery from "../../components/Gallery/Gallery";
+import NewsLatest from "../../components/NewsLatest/NewsLatest";
 
 const Home = () => {
   const [date, setDate] = useState();
@@ -66,6 +67,7 @@ const Home = () => {
      <Benefit/>
      <FeaturePlaces/>
      <Gallery/>
+     <NewsLatest/>
     </div>
   );
 };

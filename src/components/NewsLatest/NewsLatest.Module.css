@@ -1,0 +1,7 @@
+.special-inner{
+    width: 80%;
+}
+.date{
+    transform: translateY(-35px);
+    border-radius: 5px;
+}
