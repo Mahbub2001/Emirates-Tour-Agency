@@ -1,6 +1,12 @@
 .special-inner{
     width: 80%;
 }
+.slider-wrap{
+    width: 70vw;
+}
+.img-slide{
+    height: 60vh;
+}
 
 .gallery-pic{
     filter: brightness(50%);
@@ -12,7 +18,28 @@
     transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
 
 }
+.hr-class{
+    text-align: center;
+    margin-left: 18em;
+}
 
 @media screen and (max-width:990px) {
+    .img-slide{
+        height: 40vh;
+    }
+    .hr-class{
+        text-align: center;
+        margin-left: 10em;
+    }
     
+}
+@media screen and (max-width:600px) {
+    .slider-slider{
+        margin-top: -50px;
+       
+    }
+    .hr-class{
+        text-align: center;
+        margin-left: 3em;
+    }
 }

@@ -1,13 +1,9 @@
 import "./Gallery.Module.css";
 import gp from "../../assets/icons/gp-1.jpeg";
-import icon1 from '../../assets/icons/icon1.webp'
-import icon2 from '../../assets/icons/icon2.webp'
-import icon3 from '../../assets/icons/icon3.webp'
-import ImageSlider from "./Slider/ImageSlider";
-import { SliderData } from "./Slider/SliderData";
-
+import AsNavFor from "./AsNav";
 
 const Gallery = () => {
+
 
   return (
     <div>
@@ -17,18 +13,18 @@ const Gallery = () => {
           <h5 className="lg:text-5xl text-white font-semibold text-center">
             Destination Gallery
           </h5>
+            <div className="text-center hr-class"> <hr className=" mt-2 text-blue-700  bg-blue-700 w-20 h-2"/></div>
           <p className="lg:mt-5 lg:text-2xl text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
-            facere fuga quibusdam eius maxime quia.
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-center lg:-mt-96 md:-mt-28 sm:-mt-0">
+      <div className="flex flex-row justify-center lg:-mt-96 md:-mt-36 sm:-mt-0 slider-slider">
         <div className="special-inner">
           <div className="flex justify-center justify-items-center">
-          <div className="">
-           <ImageSlider slides={SliderData}/>
-          </div>
+            <div className="">
+                <AsNavFor/>
+            </div>
           </div>
         </div>
       </div>
@@ -37,6 +33,8 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+
 
 // import React, { useState } from "react";
 // import "./Gallery.Module.css";
