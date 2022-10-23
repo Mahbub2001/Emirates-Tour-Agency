@@ -5,6 +5,7 @@ import Blogs from "../../pages/Blogs/Blogs";
 import Contact from "../../pages/Contact/Contact";
 import ForgetPassword from "../../pages/ForgetPassword/ForgetPassword";
 import Home from "../../pages/Home/Home";
+import LatestNews from "../../pages/Latest-News/LatestNews";
 import Login from "../../pages/Login/Login";
 import Profile from "../../pages/Profile/Profile";
 import Register from "../../pages/Register/Register";
@@ -53,6 +54,10 @@ export const routers = createBrowserRouter([
                 path:"/about-us",
                 element:<AboutUs/>,
             },
+            {
+                path:"/latestNews",
+                element:<LatestNews/>
+            }
         ]
     }
 ])
