@@ -7,6 +7,7 @@ import FeaturePlaces from "../../components/FeaturePlaces/FeaturePlaces";
 import Gallery from "../../components/Gallery/Gallery";
 import NewsLatest from "../../components/NewsLatest/NewsLatest";
 import { FaArrowRight } from "react-icons/fa";
+import HomeSlider from "./HomeSlider";
 
 const Home = () => {
   const [date, setDate] = useState();
@@ -31,8 +32,8 @@ const Home = () => {
             Book Now<FaArrowRight className="ml-2" />
           </button>
         </div>
-        <div>
-          
+        <div className="absolute slider-home">
+          <HomeSlider/>
         </div>
       </div>
       <div className="flex flex-row justify-center destination-container">
