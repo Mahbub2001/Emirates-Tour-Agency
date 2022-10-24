@@ -1,6 +1,12 @@
 .home-picture{
     width: 100%;
-    filter: brightness(50%);
+    filter: brightness(60%);
+}
+.header-details{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 30rem;
 }
 .destination-container{
     transform: translateY(-65%);
@@ -51,6 +57,9 @@
     }
 }
 @media screen and (max-width:600px) {
+    .header-details{
+        display: none;
+    }
     .home-picture{
         height: 80vh;
     }
