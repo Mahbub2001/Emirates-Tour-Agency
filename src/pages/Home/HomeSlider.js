@@ -23,27 +23,27 @@ const HomeSlider = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper md:hidden lg:block sm:hidden"
+        className="mySwiper1 "
       >
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image1} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image2} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image3} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-72 rounded-2xl" src={image4} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900 h-64"><img src={image1} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900 h-64"><img src={image2} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer h-64 rounded-2xl border-4 border-cyan-900"><img src={image3} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-64 rounded-2xl " src={image4} alt="" /></SwiperSlide>
       </Swiper>
 
       <Swiper
-        slidesPerView={1}
+        slidesPerView={2}
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper h-96  w-64 md:block lg:hidden sm:hidden"
+        className="mySwiper2"
       >
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image1} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image2} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img src={image3} alt="" /></SwiperSlide>
-        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-72 rounded-2xl" src={image4} alt="" /></SwiperSlide>
+        <SwiperSlide className=" cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-36 images" src={image1} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-36 images" src={image2} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-36 images" src={image3} alt="" /></SwiperSlide>
+        <SwiperSlide className="cursor-pointer rounded-2xl border-4 border-cyan-900"><img className="h-36 images rounded-2xl" src={image4} alt="" /></SwiperSlide>
       </Swiper>
     </div>
   );

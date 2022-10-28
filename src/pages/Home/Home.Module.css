@@ -48,15 +48,25 @@
     right: -120px;
     top: 30px;
 }
+.mySwiper2{
+    display: none;
+}
 
 @media screen and (max-width:990px) {
+    .mySwiper1 {
+        display: none;
+    }
+    .mySwiper2{
+        display: block;
+        width: 200px;
+    }
     .home-picture{
         height: 70vh;
     }
     .slider-home{
-        right: -20%;
-        top: 20%;
-        width: 600px;
+        right: -35%;
+        top: 35%;
+        width: 700px;
     }
     .date-pickerdiv{
         margin-top: 2rem;
@@ -65,8 +75,15 @@
     .date-pickerdiv{
         margin-bottom: 2rem;
     }
+
 }
 @media screen and (max-width:600px) {
+    .mySwiper1{
+        display: none;
+    }
+    .mySwiper2{
+        display: none;
+    }
     .header-details{
         display: none;
     }
@@ -75,6 +92,8 @@
     }
     .destination-inner{
         padding: 30px 30px;
+        margin-top: 5rem;
+        margin-bottom: -10rem;
     }
     .date-pickerdiv{
         margin-bottom: 2rem;
